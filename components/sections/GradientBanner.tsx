@@ -1,7 +1,10 @@
+import { SectionNumber } from '@/components/SectionNumber'
+
 export function GradientBanner() {
     return (
         <section className="px-4 sm:px-6 lg:px-8 py-8 bg-white">
             <div className="max-w-7xl mx-auto">
+                <SectionNumber number={1} label="Vue d'ensemble" />
                 <div className="bg-gradient-to-r from-emerald-500 to-blue-500 p-12 text-white rounded-2xl shadow-xl text-center">
                     <p className="text-sm font-semibold uppercase tracking-widest text-white/70 mb-3">
                         Assurance nouvelle génération

@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
+import { smoothScrollTo } from '@/utils/smoothScroll'
 
 interface NavigationProps {
     onMenuClick: () => void
@@ -35,28 +36,24 @@ export function Navigation({ onMenuClick }: NavigationProps) {
 
                     {/* Desktop Menu */}
                     <div className="hidden md:flex items-center space-x-8">
-                        <a href="#insurance" className={`text-sm font-medium transition-colors ${scrolled ? 'text-gray-700 hover:text-pulse-accent' : 'text-white hover:text-pulse-accent'
-                            }`}>
+                        <button onClick={() => smoothScrollTo('insurance', 450)} className={`text-sm font-medium transition-colors ${scrolled ? 'text-gray-700 hover:text-pulse-accent' : 'text-white hover:text-pulse-accent'}`}>
                             Mon assurance
-                        </a>
-                        <a href="#usage" className={`text-sm font-medium transition-colors ${scrolled ? 'text-gray-700 hover:text-pulse-accent' : 'text-white hover:text-pulse-accent'
-                            }`}>
+                        </button>
+                        <button onClick={() => smoothScrollTo('usage', 450)} className={`text-sm font-medium transition-colors ${scrolled ? 'text-gray-700 hover:text-pulse-accent' : 'text-white hover:text-pulse-accent'}`}>
                             Usage & coût
-                        </a>
-                        <a href="#score" className={`text-sm font-medium transition-colors ${scrolled ? 'text-gray-700 hover:text-pulse-accent' : 'text-white hover:text-pulse-accent'
-                            }`}>
+                        </button>
+                        <button onClick={() => smoothScrollTo('score', 450)} className={`text-sm font-medium transition-colors ${scrolled ? 'text-gray-700 hover:text-pulse-accent' : 'text-white hover:text-pulse-accent'}`}>
                             Score
-                        </a>
-                        <a href="#partner" className={`text-sm font-medium transition-colors ${scrolled ? 'text-gray-700 hover:text-pulse-accent' : 'text-white hover:text-pulse-accent'
-                            }`}>
+                        </button>
+                        <button onClick={() => smoothScrollTo('partner', 450)} className={`text-sm font-medium transition-colors ${scrolled ? 'text-gray-700 hover:text-pulse-accent' : 'text-white hover:text-pulse-accent'}`}>
                             Partenaires
-                        </a>
-                        <a
-                            href="#hero"
-                            className="px-6 py-2 bg-pulse-accent text-white rounded-pulse font-medium hover:bg-pulse-accent-dark transition-colors"
+                        </button>
+                        <button
+                            onClick={() => smoothScrollTo('insurance', 450)}
+                            className="px-6 py-2 bg-pulse-accent text-white rounded-pulse font-medium hover:bg-pulse-accent-dark transition-all duration-200 transform hover:scale-110 active:scale-95 shadow-md hover:shadow-lg"
                         >
                             Commencer
-                        </a>
+                        </button>
                     </div>
 
                     {/* Mobile Menu Button */}

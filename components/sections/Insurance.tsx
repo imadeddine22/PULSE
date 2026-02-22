@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import { Card } from '@/components/Card'
 import { ToggleSwitch } from '@/components/ToggleSwitch'
+import { SectionNumber } from '@/components/SectionNumber'
 
 export function Insurance() {
     const [isActive, setIsActive] = useState(true)
@@ -10,6 +11,7 @@ export function Insurance() {
     return (
         <section id="insurance" className="py-20 sm:py-32 bg-white px-4 sm:px-6 lg:px-8">
             <div className="max-w-7xl mx-auto">
+                <SectionNumber number={2} label="Mon assurance" />
                 <div className="text-center mb-16">
                     <span className="text-pulse-accent font-semibold text-sm uppercase tracking-wide">
                         Contrôle total
@@ -17,9 +19,7 @@ export function Insurance() {
                     <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mt-4 mb-6">
                         Mon assurance
                     </h2>
-                    <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                        Gérez votre couverture en temps réel. Activez ou mettez en pause votre assurance selon vos besoins.
-                    </p>
+
                 </div>
 
                 <div className="max-w-4xl mx-auto">
@@ -32,8 +32,8 @@ export function Insurance() {
                                 </h3>
                                 <p className="text-gray-600">
                                     {isActive
-                                        ? 'Votre couverture est actuellement active. Vous êtes protégé à 100%.'
-                                        : 'Votre couverture est actuellement en pause. Activez-la quand vous en avez besoin.'}
+                                        ? ''
+                                        : ''}
                                 </p>
                             </div>
                             <div className="flex justify-center sm:justify-end">
@@ -50,7 +50,7 @@ export function Insurance() {
 
                         {/* Features Grid */}
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                            <div className="flex items-start space-x-4">
+                            <div className="flex items-center space-x-4">
                                 <div className={`w-12 h-12 rounded-pulse flex items-center justify-center flex-shrink-0 ${isActive ? 'bg-pulse-accent/20' : 'bg-gray-200'
                                     }`}>
                                     <svg
@@ -69,13 +69,11 @@ export function Insurance() {
                                 </div>
                                 <div>
                                     <h4 className="font-semibold text-gray-900 mb-1">Adaptatif et transparent</h4>
-                                    <p className="text-sm text-gray-600">
-                                        Votre couverture s'adapte à votre utilisation réelle. Pas de surprise.
-                                    </p>
+
                                 </div>
                             </div>
 
-                            <div className="flex items-start space-x-4">
+                            <div className="flex items-center space-x-4">
                                 <div className={`w-12 h-12 rounded-pulse flex items-center justify-center flex-shrink-0 ${isActive ? 'bg-pulse-accent/20' : 'bg-gray-200'
                                     }`}>
                                     <svg
@@ -94,13 +92,11 @@ export function Insurance() {
                                 </div>
                                 <div>
                                     <h4 className="font-semibold text-gray-900 mb-1">Vous gardez le contrôle</h4>
-                                    <p className="text-sm text-gray-600">
-                                        Décidez quand vous êtes couvert. Payez uniquement pour ce que vous utilisez.
-                                    </p>
+
                                 </div>
                             </div>
 
-                            <div className="flex items-start space-x-4">
+                            <div className="flex items-center space-x-4">
                                 <div className={`w-12 h-12 rounded-pulse flex items-center justify-center flex-shrink-0 ${isActive ? 'bg-pulse-accent/20' : 'bg-gray-200'
                                     }`}>
                                     <svg
@@ -119,13 +115,11 @@ export function Insurance() {
                                 </div>
                                 <div>
                                     <h4 className="font-semibold text-gray-900 mb-1">Tarification juste</h4>
-                                    <p className="text-sm text-gray-600">
-                                        Le coût reflète votre usage réel, pas un forfait imposé.
-                                    </p>
+
                                 </div>
                             </div>
 
-                            <div className="flex items-start space-x-4">
+                            <div className="flex items-center space-x-4">
                                 <div className={`w-12 h-12 rounded-pulse flex items-center justify-center flex-shrink-0 ${isActive ? 'bg-pulse-accent/20' : 'bg-gray-200'
                                     }`}>
                                     <svg
@@ -144,9 +138,7 @@ export function Insurance() {
                                 </div>
                                 <div>
                                     <h4 className="font-semibold text-gray-900 mb-1">Sécurisé et conforme</h4>
-                                    <p className="text-sm text-gray-600">
-                                        Vos données sont protégées. Contrats portés par des assureurs agréés.
-                                    </p>
+
                                 </div>
                             </div>
                         </div>

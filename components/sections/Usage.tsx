@@ -1,9 +1,11 @@
 import { Card } from '@/components/Card'
+import { SectionNumber } from '@/components/SectionNumber'
 
 export function Usage() {
     return (
         <section id="usage" className="py-20 sm:py-32 bg-gray-50 px-4 sm:px-6 lg:px-8">
             <div className="max-w-7xl mx-auto">
+                <SectionNumber number={3} label="Usage & Coût" />
                 <div className="text-center mb-16">
                     <span className="text-pulse-accent font-semibold text-sm uppercase tracking-wide">
                         Transparence totale
@@ -20,7 +22,7 @@ export function Usage() {
                     {/* Usage Card */}
                     <Card className="space-y-6">
                         <div className="flex items-center justify-between">
-                            <h3 className="text-xl font-bold text-gray-900">Usage du mois</h3>
+                            <h3 className="text-[32px] font-bold text-gray-900">Usage du mois</h3>
                             <span className="text-sm text-gray-500">Octobre</span>
                         </div>
 
@@ -55,7 +57,7 @@ export function Usage() {
                                 <svg className="w-5 h-5 text-pulse-accent flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                                 </svg>
-                                <p className="text-sm text-gray-600">
+                                <p className="text-[16px] text-gray-600">
                                     Votre usage est mesuré en temps réel pour un calcul précis de votre coût.
                                 </p>
                             </div>
@@ -68,8 +70,8 @@ export function Usage() {
 
                         <div className="space-y-4">
                             <div className="flex items-baseline space-x-3">
-                                <span className="text-5xl sm:text-6xl font-bold text-gray-900">840</span>
-                                <span className="text-2xl font-semibold text-gray-600">DZD</span>
+                                <span className="text-[48px] font-extrabold text-gray-900 leading-none">840</span>
+                                <span className="text-[24px] font-semibold text-gray-600">DZD</span>
                             </div>
 
                             <div className="inline-flex items-center space-x-2 px-4 py-2 bg-green-100 text-green-800 rounded-full text-sm font-medium">

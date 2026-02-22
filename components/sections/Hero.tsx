@@ -1,3 +1,7 @@
+'use client'
+
+import { smoothScrollTo } from '@/utils/smoothScroll'
+
 export function Hero() {
     return (
         <section id="hero" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-900 via-gray-800 to-pulse-accent/20 text-white px-4 sm:px-6 lg:px-8 pt-16">
@@ -23,18 +27,18 @@ export function Hero() {
                         </p>
 
                         <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-                            <a
-                                href="#insurance"
-                                className="px-8 py-4 bg-pulse-accent text-white rounded-pulse font-medium hover:bg-pulse-accent-dark transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 text-center"
+                            <button
+                                onClick={() => smoothScrollTo('insurance', 450)}
+                                className="px-8 py-4 bg-pulse-accent text-white rounded-pulse font-medium hover:bg-pulse-accent-dark transition-all duration-200 shadow-lg hover:shadow-xl transform hover:scale-110 active:scale-95 text-center"
                             >
                                 Commencer
-                            </a>
-                            <a
-                                href="#usage"
+                            </button>
+                            <button
+                                onClick={() => smoothScrollTo('usage', 450)}
                                 className="px-8 py-4 bg-white/10 backdrop-blur-sm text-white border border-white/20 rounded-pulse font-medium hover:bg-white/20 transition-all duration-200 text-center"
                             >
                                 En savoir plus
-                            </a>
+                            </button>
                         </div>
 
                         {/* Trust Indicators */}

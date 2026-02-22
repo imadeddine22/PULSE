@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from 'react'
 import { Card } from '@/components/Card'
+import { SectionNumber } from '@/components/SectionNumber'
 
 /* ── Circular Gauge ─────────────────────────────────────────── */
 interface GaugeProps {
@@ -186,6 +187,7 @@ export function Score() {
         <section id="score" className="py-20 sm:py-32 bg-white px-4 sm:px-6 lg:px-8">
             <div className="max-w-7xl mx-auto">
 
+                <SectionNumber number={4} label="Score PULSE" />
                 {/* Header */}
                 <div className="text-center mb-16">
                     <span className="text-pulse-accent font-semibold text-sm uppercase tracking-wide">
