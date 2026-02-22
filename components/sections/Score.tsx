@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect, useRef, useState } from 'react'
+import { Card } from '@/components/Card'
 
 /* ── Circular Gauge ─────────────────────────────────────────── */
 interface GaugeProps {
@@ -59,10 +60,10 @@ function CircularGauge({ value, max = 100, size = 240, strokeWidth = 18, label =
 
             {/* Centre text */}
             <div className="absolute inset-0 flex flex-col items-center justify-center">
-                <span className="text-5xl font-extrabold text-gray-900 leading-none">{animated}</span>
-                <span className="text-sm text-gray-400 mt-1">/ {max}</span>
+                <span className="text-6xl font-black text-gray-900 leading-none">{animated}</span>
+                <span className="text-base font-bold text-gray-400 mt-1">/ {max}</span>
                 <span
-                    className="mt-2 text-xs font-semibold px-3 py-1 rounded-full"
+                    className="mt-3 text-xs font-bold px-4 py-1.5 rounded-full tracking-wide"
                     style={{ background: `${colour}22`, color: colour }}
                 >
                     {label}
@@ -202,8 +203,13 @@ export function Score() {
                 <div className="max-w-5xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
 
                     {/* LEFT — Circular Gauge */}
-                    <div className="bg-white rounded-2xl border border-gray-100 shadow-sm p-8 sm:p-12 flex flex-col items-center space-y-6">
-                        <CircularGauge value={78} max={100} size={240} strokeWidth={18} label="Bon score" />
+                    <Card className="flex flex-col items-center space-y-6">
+                        {/* Score badge */}
+                        <div className="w-full flex items-center justify-between mb-2">
+                            <h3 className="text-lg font-bold text-gray-900">Score PULSE</h3>
+                            <span className="text-xs font-bold px-3 py-1 rounded-full bg-emerald-100 text-emerald-700">78 / 100</span>
+                        </div>
+                        <CircularGauge value={78} max={100} size={240} strokeWidth={20} label="Bon score" />
                         <div className="text-center space-y-2">
                             <h3 className="text-2xl font-bold text-gray-900">Bon score</h3>
                             <p className="text-sm text-gray-500 max-w-xs">
@@ -225,21 +231,21 @@ export function Score() {
                                 </span>
                             ))}
                         </div>
-                    </div>
+                    </Card>
 
                     {/* RIGHT — 4 Bars + info */}
                     <div className="space-y-6">
-                        <div className="bg-white rounded-2xl border border-gray-100 shadow-sm p-6 sm:p-8">
+                        <Card>
                             <h3 className="text-lg font-bold text-gray-900 mb-6">Détails du score</h3>
                             <div className="space-y-6">
                                 {BARS.map(bar => (
                                     <ScoreBar key={bar.label} {...bar} />
                                 ))}
                             </div>
-                        </div>
+                        </Card>
 
                         {/* Info card */}
-                        <div className="bg-gray-50 rounded-2xl border border-gray-100 p-5 flex items-start gap-3">
+                        <Card className="bg-gray-50 flex items-start gap-3">
                             <svg className="w-5 h-5 text-pulse-accent flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                             </svg>
@@ -249,7 +255,7 @@ export function Score() {
                                     Le score PULSE est un outil de transparence qui peut vous permettre d'accéder à de meilleures conditions tarifaires. Ce n'est pas une pénalité.
                                 </p>
                             </div>
-                        </div>
+                        </Card>
                     </div>
                 </div>
             </div>

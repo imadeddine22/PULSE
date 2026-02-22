@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import { Hero } from '@/components/sections/Hero'
+import { GradientBanner } from '@/components/sections/GradientBanner'
 import { Insurance } from '@/components/sections/Insurance'
 import { Usage } from '@/components/sections/Usage'
 import { Score } from '@/components/sections/Score'
@@ -23,6 +24,7 @@ export default function LandingPage() {
             {/* Sections */}
             <main>
                 <Hero />
+                <GradientBanner />
                 <Insurance />
                 <Usage />
                 <Score />

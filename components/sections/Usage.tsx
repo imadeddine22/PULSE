@@ -24,20 +24,29 @@ export function Usage() {
                             <span className="text-sm text-gray-500">Octobre</span>
                         </div>
 
-                        <div className="grid grid-cols-3 gap-4">
-                            <div className="text-center p-6 bg-gradient-to-br from-pulse-accent/5 to-pulse-accent/10 rounded-pulse">
-                                <div className="text-4xl font-bold text-gray-900 mb-2">12</div>
-                                <div className="text-sm text-gray-600 uppercase tracking-wide">Jours</div>
+                        <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
+                            <div className="text-center p-5 bg-gradient-to-br from-emerald-50 to-emerald-100 rounded-2xl border border-emerald-200">
+                                <div className="text-3xl mb-2">📅</div>
+                                <div className="text-3xl font-bold text-gray-900 mb-1">12</div>
+                                <div className="text-xs font-semibold text-emerald-700 uppercase tracking-wide">Usage</div>
                             </div>
 
-                            <div className="text-center p-6 bg-gradient-to-br from-pulse-accent/5 to-pulse-accent/10 rounded-pulse">
-                                <div className="text-4xl font-bold text-gray-900 mb-2">36</div>
-                                <div className="text-sm text-gray-600 uppercase tracking-wide">Heures</div>
+                            <div className="text-center p-5 bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl border border-blue-200">
+                                <div className="text-3xl mb-2">⏱️</div>
+                                <div className="text-3xl font-bold text-gray-900 mb-1">36</div>
+                                <div className="text-xs font-semibold text-blue-700 uppercase tracking-wide">Heures</div>
                             </div>
 
-                            <div className="text-center p-6 bg-gradient-to-br from-pulse-accent/5 to-pulse-accent/10 rounded-pulse">
-                                <div className="text-4xl font-bold text-gray-900 mb-2">420</div>
-                                <div className="text-sm text-gray-600 uppercase tracking-wide">Unités</div>
+                            <div className="text-center p-5 bg-gradient-to-br from-purple-50 to-purple-100 rounded-2xl border border-purple-200">
+                                <div className="text-3xl mb-2">🚗</div>
+                                <div className="text-3xl font-bold text-gray-900 mb-1">420</div>
+                                <div className="text-xs font-semibold text-purple-700 uppercase tracking-wide">Unités</div>
+                            </div>
+
+                            <div className="text-center p-5 bg-gradient-to-br from-amber-50 to-amber-100 rounded-2xl border border-amber-200">
+                                <div className="text-3xl mb-2">💰</div>
+                                <div className="text-3xl font-bold text-gray-900 mb-1">840</div>
+                                <div className="text-xs font-semibold text-amber-700 uppercase tracking-wide">DA</div>
                             </div>
                         </div>
 
@@ -59,7 +68,7 @@ export function Usage() {
 
                         <div className="space-y-4">
                             <div className="flex items-baseline space-x-3">
-                                <span className="text-5xl sm:text-6xl font-bold text-gray-900">8 400</span>
+                                <span className="text-5xl sm:text-6xl font-bold text-gray-900">840</span>
                                 <span className="text-2xl font-semibold text-gray-600">DZD</span>
                             </div>
 

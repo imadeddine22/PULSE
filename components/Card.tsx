@@ -16,7 +16,7 @@ export function Card({ children, className = '', variant = 'default' }: CardProp
     return (
         <div
             className={`
-        border rounded-pulse shadow-sm p-6 sm:p-8 transition-all duration-200
+        border rounded-2xl shadow-xl p-8 transition-all duration-200
         ${variantStyles[variant]}
         ${className}
       `}
