@@ -13,7 +13,7 @@ Le projet **PULSE** est **100% complet et fonctionnel** !
 ## 📂 Structure du Projet
 
 ```
-plus/
+sidra/
 ├── app/
 │   ├── globals.css          # Styles globaux avec variables PULSE
 │   ├── layout.tsx            # Layout racine avec Inter font
@@ -61,7 +61,7 @@ plus/
 ### PAGE 1: Onboarding (/)
 - Hero plein écran (100vh)
 - Titre: "SIDRA – L'assurance qui s'adapte à l'usage"
-- Sous-titre: "Activez, utilisez, comprenez. Vous ne payez plus à l'aveugle."
+- Sous-titre: "Activez, utilisez, comprenez. Vous ne payez sidra à l'aveugle."
 - CTA "Commencer" → /insurance
 - 3 indicateurs de confiance (Simple, Sécurisé, Adaptatif)
 

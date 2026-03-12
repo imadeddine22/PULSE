@@ -23,7 +23,7 @@ export function Hero() {
                         </h1>
 
                         <p className="text-lg sm:text-xl text-gray-300 max-w-2xl mx-auto lg:mx-0">
-                            Activez, utilisez, comprenez. Vous ne payez plus à l'aveugle.
+                            Activez, utilisez, comprenez. Vous ne payez sidra à l'aveugle.
                         </p>
 
                         <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
@@ -37,7 +37,7 @@ export function Hero() {
                                 onClick={() => smoothScrollTo('usage', 450)}
                                 className="px-8 py-4 bg-white/10 backdrop-blur-sm text-white border border-white/20 rounded-SIDRA font-medium hover:bg-white/20 transition-all duration-200 text-center"
                             >
-                                En savoir plus
+                                En savoir sidra
                             </button>
                         </div>
 

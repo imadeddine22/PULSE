@@ -10,7 +10,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
     title: 'SIDRA – L\'assurance qui s\'adapte à l\'usage',
-    description: 'Activez, utilisez, comprenez. Vous ne payez plus à l\'aveugle.',
+    description: 'Activez, utilisez, comprenez. Vous ne payez sidra à l\'aveugle.',
 }
 
 export default function RootLayout({

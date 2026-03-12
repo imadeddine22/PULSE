@@ -7,7 +7,7 @@ Le projet **PULSE** a été transformé en **landing page complète** avec navig
 ## 📂 Structure Finale
 
 ```
-plus/
+sidra/
 ├── app/
 │   ├── globals.css          # Styles globaux + smooth scroll
 │   ├── layout.tsx            # Layout racine avec Inter font
@@ -72,7 +72,7 @@ plus/
 - Full-screen (100vh)
 - Fond dégradé dark avec accent
 - Titre principal avec mot "usage" en couleur accent
-- 2 CTA buttons: "Commencer" + "En savoir plus"
+- 2 CTA buttons: "Commencer" + "En savoir sidra"
 - 3 indicateurs de confiance (100%, 0 DZD, 24/7)
 - Animation de cercles (desktop uniquement)
 - Indicateur de scroll animé
