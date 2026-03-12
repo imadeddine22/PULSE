@@ -254,7 +254,7 @@ export function Score() {
                             <div>
                                 <h4 className="font-semibold text-gray-900 mb-1">À quoi sert le score ?</h4>
                                 <p className="text-sm text-gray-500">
-                                    Le score PULSE est un outil de transparence qui peut vous permettre d'accéder à de meilleures conditions tarifaires. Ce n'est pas une pénalité.
+                                    Le score SIDRA est un outil de transparence qui peut vous permettre d'accéder à de meilleures conditions tarifaires. Ce n'est pas une pénalité.
                                 </p>
                             </div>
                         </Card>

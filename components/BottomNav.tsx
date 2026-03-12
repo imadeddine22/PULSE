@@ -25,7 +25,7 @@ export function BottomNav({
                     {backHref ? (
                         <button
                             onClick={() => router.push(backHref)}
-                            className="flex-1 sm:flex-none px-6 py-3 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-pulse hover:bg-gray-50 transition-colors duration-200 min-w-[120px]"
+                            className="flex-1 sm:flex-none px-6 py-3 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-SIDRA hover:bg-gray-50 transition-colors duration-200 min-w-[120px]"
                         >
                             {backLabel}
                         </button>
@@ -37,7 +37,7 @@ export function BottomNav({
                     {nextHref && (
                         <button
                             onClick={() => router.push(nextHref)}
-                            className="flex-1 sm:flex-none px-6 py-3 text-sm font-medium text-white bg-gray-900 rounded-pulse hover:bg-gray-800 transition-colors duration-200 min-w-[120px] shadow-md"
+                            className="flex-1 sm:flex-none px-6 py-3 text-sm font-medium text-white bg-gray-900 rounded-SIDRA hover:bg-gray-800 transition-colors duration-200 min-w-[120px] shadow-md"
                         >
                             {nextLabel}
                         </button>

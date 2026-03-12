@@ -1,4 +1,4 @@
-# 🎉 PULSE - Projet Terminé avec Succès
+# 🎉 SIDRA - Projet Terminé avec Succès
 
 ## ✅ Statut du Projet
 
@@ -23,7 +23,7 @@ plus/
 │   ├── usage/
 │   │   └── page.tsx          # PAGE 3: Usage & coût (/usage)
 │   ├── score/
-│   │   └── page.tsx          # PAGE 4: Score PULSE (/score)
+│   │   └── page.tsx          # PAGE 4: Score SIDRA (/score)
 │   └── partner/
 │       └── page.tsx          # PAGE 5: Assureur partenaire (/partner)
 │
@@ -60,7 +60,7 @@ plus/
 
 ### PAGE 1: Onboarding (/)
 - Hero plein écran (100vh)
-- Titre: "PULSE – L'assurance qui s'adapte à l'usage"
+- Titre: "SIDRA – L'assurance qui s'adapte à l'usage"
 - Sous-titre: "Activez, utilisez, comprenez. Vous ne payez plus à l'aveugle."
 - CTA "Commencer" → /insurance
 - 3 indicateurs de confiance (Simple, Sécurisé, Adaptatif)
@@ -82,7 +82,7 @@ plus/
 - Layout responsive (stacked mobile, 2 colonnes desktop)
 - Navigation: Retour → /insurance | Suivant → /score
 
-### PAGE 4: Score PULSE (/score)
+### PAGE 4: Score SIDRA (/score)
 - ProgressRing SVG: 78/100
 - 3 badges:
   - Régularité: Bonne (vert)
@@ -96,7 +96,7 @@ plus/
 - Card de confiance avec icône
 - Titre: "Les contrats sont portés par des assureurs agréés"
 - Placeholder logo assureur
-- Disclaimer: "PULSE n'est pas une compagnie d'assurance"
+- Disclaimer: "SIDRA n'est pas une compagnie d'assurance"
 - 3 bullets:
   - Agréés & conformes
   - Contrats clairs
@@ -160,7 +160,7 @@ Ouvrez votre navigateur à: **http://localhost:3000**
 1. Page d'accueil → Cliquer "Commencer"
 2. Mon assurance → Toggle ON/OFF → "Suivant"
 3. Usage & coût → Voir métriques → "Suivant"
-4. Score PULSE → Voir jauge 78/100 → "Suivant"
+4. Score SIDRA → Voir jauge 78/100 → "Suivant"
 5. Assureur partenaire → "Recommencer" (retour à /)
 
 ### Build production

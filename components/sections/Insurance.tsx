@@ -51,7 +51,7 @@ export function Insurance() {
                         {/* Features Grid */}
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                             <div className="flex items-center space-x-4">
-                                <div className={`w-12 h-12 rounded-pulse flex items-center justify-center flex-shrink-0 ${isActive ? 'bg-pulse-accent/20' : 'bg-gray-200'
+                                <div className={`w-12 h-12 rounded-SIDRA flex items-center justify-center flex-shrink-0 ${isActive ? 'bg-pulse-accent/20' : 'bg-gray-200'
                                     }`}>
                                     <svg
                                         className={`w-6 h-6 ${isActive ? 'text-pulse-accent' : 'text-gray-500'}`}
@@ -74,7 +74,7 @@ export function Insurance() {
                             </div>
 
                             <div className="flex items-center space-x-4">
-                                <div className={`w-12 h-12 rounded-pulse flex items-center justify-center flex-shrink-0 ${isActive ? 'bg-pulse-accent/20' : 'bg-gray-200'
+                                <div className={`w-12 h-12 rounded-SIDRA flex items-center justify-center flex-shrink-0 ${isActive ? 'bg-pulse-accent/20' : 'bg-gray-200'
                                     }`}>
                                     <svg
                                         className={`w-6 h-6 ${isActive ? 'text-pulse-accent' : 'text-gray-500'}`}
@@ -97,7 +97,7 @@ export function Insurance() {
                             </div>
 
                             <div className="flex items-center space-x-4">
-                                <div className={`w-12 h-12 rounded-pulse flex items-center justify-center flex-shrink-0 ${isActive ? 'bg-pulse-accent/20' : 'bg-gray-200'
+                                <div className={`w-12 h-12 rounded-SIDRA flex items-center justify-center flex-shrink-0 ${isActive ? 'bg-pulse-accent/20' : 'bg-gray-200'
                                     }`}>
                                     <svg
                                         className={`w-6 h-6 ${isActive ? 'text-pulse-accent' : 'text-gray-500'}`}
@@ -120,7 +120,7 @@ export function Insurance() {
                             </div>
 
                             <div className="flex items-center space-x-4">
-                                <div className={`w-12 h-12 rounded-pulse flex items-center justify-center flex-shrink-0 ${isActive ? 'bg-pulse-accent/20' : 'bg-gray-200'
+                                <div className={`w-12 h-12 rounded-SIDRA flex items-center justify-center flex-shrink-0 ${isActive ? 'bg-pulse-accent/20' : 'bg-gray-200'
                                     }`}>
                                     <svg
                                         className={`w-6 h-6 ${isActive ? 'text-pulse-accent' : 'text-gray-500'}`}

@@ -1,10 +1,10 @@
-# PULSE - Landing Page Assurance Adaptative
+# SIDRA - Landing Page Assurance Adaptative
 
 صفحة هبوط (Landing Page) كاملة لمفهوم **PULSE** - التأمين الذي يتكيف مع الاستخدام الفعلي.
 
 ## 🎯 المفهوم
 
-PULSE هي منصة تعليمية تشرح مبدأ التأمين الدقيق التكيفي:
+SIDRA هي منصة تعليمية تشرح مبدأ التأمين الدقيق التكيفي:
 - **فعّل** تغطيتك عندما تحتاجها
 - **استخدم** وتابع استهلاكك في الوقت الفعلي
 - **افهم** نقاطك وتكلفتك
@@ -40,7 +40,7 @@ npm start
 1. **#hero** - Hero section (الصفحة الرئيسية)
 2. **#insurance** - Mon assurance (تأميني)
 3. **#usage** - Usage & coût (الاستخدام والتكلفة)
-4. **#score** - Score PULSE (نقاط PULSE)
+4. **#score** - Score SIDRA (نقاط PULSE)
 5. **#partner** - Assureur partenaire (الشريك المؤمن)
 
 ## 🎨 التصميم

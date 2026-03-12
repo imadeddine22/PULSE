@@ -32,13 +32,13 @@ export function Partner() {
                                 Les contrats sont portés par des assureurs agréés
                             </h3>
                             <p className="text-gray-600 max-w-2xl mx-auto">
-                                PULSE travaille exclusivement avec des partenaires de premier plan pour garantir une conformité totale et votre sécurité financière.
+                                SIDRA travaille exclusivement avec des partenaires de premier plan pour garantir une conformité totale et votre sécurité financière.
                             </p>
                         </div>
 
                         {/* Logo Placeholder */}
                         <div className="py-8">
-                            <div className="w-64 h-32 mx-auto bg-gray-100 border-2 border-dashed border-gray-300 rounded-pulse flex items-center justify-center">
+                            <div className="w-64 h-32 mx-auto bg-gray-100 border-2 border-dashed border-gray-300 rounded-SIDRA flex items-center justify-center">
                                 <span className="text-sm text-gray-400 font-medium">Logo Assureur Partenaire</span>
                             </div>
                         </div>
@@ -89,12 +89,12 @@ export function Partner() {
                     {/* CTA */}
                     <Card className="bg-gradient-to-br from-pulse-accent/5 to-pulse-accent/10 border-pulse-accent/30 text-center p-8 sm:p-12">
                         <h3 className="text-2xl font-bold text-gray-900 mb-4">
-                            Prêt à découvrir PULSE ?
+                            Prêt à découvrir SIDRA ?
                         </h3>
 
                         <a
                             href="#hero"
-                            className="inline-flex items-center px-8 py-4 bg-pulse-accent text-white rounded-pulse font-medium hover:bg-pulse-accent-dark transition-all duration-200 shadow-lg hover:shadow-xl"
+                            className="inline-flex items-center px-8 py-4 bg-pulse-accent text-white rounded-SIDRA font-medium hover:bg-pulse-accent-dark transition-all duration-200 shadow-lg hover:shadow-xl"
                         >
                             contactez nous a  <br />
                             ontact@plus.dz

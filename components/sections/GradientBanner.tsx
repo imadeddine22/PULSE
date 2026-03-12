@@ -13,7 +13,7 @@ export function GradientBanner() {
                         Payez uniquement ce que vous utilisez
                     </h2>
                     <p className="mt-4 text-lg text-white/80 max-w-2xl mx-auto">
-                        PULSE adapte votre couverture à votre usage réel — en temps réel.
+                        SIDRA adapte votre couverture à votre usage réel — en temps réel.
                     </p>
                     <div className="mt-8 flex flex-wrap justify-center gap-6 text-sm font-medium">
                         <span className="flex items-center gap-2 bg-white/20 px-4 py-2 rounded-full">✅ 0 frais cachés</span>

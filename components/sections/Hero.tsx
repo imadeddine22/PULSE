@@ -16,7 +16,7 @@ export function Hero() {
                         </div>
 
                         <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold leading-tight">
-                            PULSE –<br />
+                            SIDRA –<br />
                             L'assurance qui<br />
                             s'adapte à{' '}
                             <span className="text-pulse-accent">l'usage</span>
@@ -29,13 +29,13 @@ export function Hero() {
                         <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
                             <button
                                 onClick={() => smoothScrollTo('insurance', 450)}
-                                className="px-8 py-4 bg-pulse-accent text-white rounded-pulse font-medium hover:bg-pulse-accent-dark transition-all duration-200 shadow-lg hover:shadow-xl transform hover:scale-110 active:scale-95 text-center"
+                                className="px-8 py-4 bg-pulse-accent text-white rounded-SIDRA font-medium hover:bg-pulse-accent-dark transition-all duration-200 shadow-lg hover:shadow-xl transform hover:scale-110 active:scale-95 text-center"
                             >
                                 Commencer
                             </button>
                             <button
                                 onClick={() => smoothScrollTo('usage', 450)}
-                                className="px-8 py-4 bg-white/10 backdrop-blur-sm text-white border border-white/20 rounded-pulse font-medium hover:bg-white/20 transition-all duration-200 text-center"
+                                className="px-8 py-4 bg-white/10 backdrop-blur-sm text-white border border-white/20 rounded-SIDRA font-medium hover:bg-white/20 transition-all duration-200 text-center"
                             >
                                 En savoir plus
                             </button>
@@ -66,7 +66,7 @@ export function Hero() {
                                 <div className="w-96 h-96 rounded-full bg-pulse-accent/10 animate-pulse"></div>
                             </div>
                             <div className="absolute inset-0 flex items-center justify-center">
-                                <div className="w-72 h-72 rounded-full bg-pulse-accent/20 animate-pulse delay-75"></div>
+                                <div className="w-72 h-72 rounded-full bg-pulse-accent/20 animate-SIDRA delay-75"></div>
                             </div>
                             <div className="absolute inset-0 flex items-center justify-center">
                                 <div className="w-48 h-48 rounded-full bg-pulse-accent/30 flex items-center justify-center">

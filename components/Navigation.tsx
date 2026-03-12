@@ -50,7 +50,7 @@ export function Navigation({ onMenuClick }: NavigationProps) {
                         </button>
                         <button
                             onClick={() => smoothScrollTo('insurance', 450)}
-                            className="px-6 py-2 bg-pulse-accent text-white rounded-pulse font-medium hover:bg-pulse-accent-dark transition-all duration-200 transform hover:scale-110 active:scale-95 shadow-md hover:shadow-lg"
+                            className="px-6 py-2 bg-pulse-accent text-white rounded-SIDRA font-medium hover:bg-pulse-accent-dark transition-all duration-200 transform hover:scale-110 active:scale-95 shadow-md hover:shadow-lg"
                         >
                             Commencer
                         </button>

@@ -1,4 +1,4 @@
-# ✅ PULSE - Landing Page Complète
+# ✅ SIDRA - Landing Page Complète
 
 ## 🎉 Projet Terminé avec Succès !
 
@@ -41,7 +41,7 @@ plus/
 
 ### 2. ✅ Navigation Desktop
 - Barre de navigation sticky en haut
-- Logo PULSE à gauche
+- Logo SIDRA à gauche
 - Menu desktop avec liens vers sections
 - Bouton CTA "Commencer"
 - Effet de transparence → blanc au scroll
@@ -105,7 +105,7 @@ plus/
 ### 6. ✅ Footer
 - 3 colonnes responsive
 - Liens rapides vers sections
-- Copyright PULSE Insurtech
+- Copyright SIDRA Insurtech
 
 ## 🎨 Design Responsive
 
@@ -193,7 +193,7 @@ Pour tester le menu mobile:
 
 ## 🎉 Résultat Final
 
-**PULSE est maintenant une landing page moderne et professionnelle avec:**
+**SIDRA est maintenant une landing page moderne et professionnelle avec:**
 - Navigation intuitive
 - Menu mobile parfait
 - Design responsive impeccable

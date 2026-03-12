@@ -9,7 +9,7 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-    title: 'PULSE – L\'assurance qui s\'adapte à l\'usage',
+    title: 'SIDRA – L\'assurance qui s\'adapte à l\'usage',
     description: 'Activez, utilisez, comprenez. Vous ne payez plus à l\'aveugle.',
 }
 
