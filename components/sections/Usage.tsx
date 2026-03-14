@@ -30,7 +30,7 @@ export function Usage() {
                             <div className="text-center p-5 bg-gradient-to-br from-emerald-50 to-emerald-100 rounded-2xl border border-emerald-200">
                                 <div className="text-3xl mb-2">📅</div>
                                 <div className="text-3xl font-bold text-gray-900 mb-1">12</div>
-                                <div className="text-xs font-semibold text-emerald-700 uppercase tracking-wide">Usage</div>
+                                <div className="text-xs font-semibold text-emerald-700 uppercase tracking-wide">trajets</div>
                             </div>
 
                             <div className="text-center p-5 bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl border border-blue-200">
@@ -41,8 +41,8 @@ export function Usage() {
 
                             <div className="text-center p-5 bg-gradient-to-br from-purple-50 to-purple-100 rounded-2xl border border-purple-200">
                                 <div className="text-3xl mb-2">🚗</div>
-                                <div className="text-3xl font-bold text-gray-900 mb-1">420</div>
-                                <div className="text-xs font-semibold text-purple-700 uppercase tracking-wide">Unités</div>
+                                <div className="text-3xl font-bold text-gray-900 mb-1">240</div>
+                                <div className="text-xs font-semibold text-purple-700 uppercase tracking-wide">km/mois octobre </div>
                             </div>
 
                             <div className="text-center p-5 bg-gradient-to-br from-amber-50 to-amber-100 rounded-2xl border border-amber-200">

@@ -23,23 +23,8 @@ export function Hero() {
                         </h1>
 
                         <p className="text-lg sm:text-xl text-gray-300 max-w-2xl mx-auto lg:mx-0">
-                            Activez, utilisez, comprenez. Vous ne payez sidra à l'aveugle.
+                            Activez, conduisez, payez plus juste. Ne payez plus votre assurance à l'aveugle.
                         </p>
-
-                        <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-                            <button
-                                onClick={() => smoothScrollTo('insurance', 450)}
-                                className="px-8 py-4 bg-pulse-accent text-white rounded-SIDRA font-medium hover:bg-pulse-accent-dark transition-all duration-200 shadow-lg hover:shadow-xl transform hover:scale-110 active:scale-95 text-center"
-                            >
-                                Commencer
-                            </button>
-                            <button
-                                onClick={() => smoothScrollTo('usage', 450)}
-                                className="px-8 py-4 bg-white/10 backdrop-blur-sm text-white border border-white/20 rounded-SIDRA font-medium hover:bg-white/20 transition-all duration-200 text-center"
-                            >
-                                En savoir sidra
-                            </button>
-                        </div>
 
                         {/* Trust Indicators */}
                         <div className="grid grid-cols-3 gap-6 pt-8">
