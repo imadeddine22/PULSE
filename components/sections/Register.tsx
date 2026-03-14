@@ -70,21 +70,13 @@ export function Register() {
                         >
                             Code confirmation SMS
                         </label>
-                        <div className="flex gap-3">
-                            <input
+                        <input
                                 id="reg-sms"
                                 type="text"
                                 placeholder="- - - - - -"
                                 maxLength={6}
-                                className="flex-1 px-4 py-3 rounded-xl border border-gray-200 bg-gray-50 text-gray-900 text-sm placeholder-gray-400 tracking-[0.4em] text-center font-mono focus:outline-none focus:ring-2 focus:ring-pulse-accent/50 focus:border-pulse-accent transition-all duration-200"
+                                className="w-full px-4 py-3 rounded-xl border border-gray-200 bg-gray-50 text-gray-900 text-sm placeholder-gray-400 tracking-[0.4em] text-center font-mono focus:outline-none focus:ring-2 focus:ring-pulse-accent/50 focus:border-pulse-accent transition-all duration-200"
                             />
-                            <button
-                                type="button"
-                                className="flex-shrink-0 px-4 py-3 rounded-xl border border-pulse-accent text-pulse-accent text-sm font-semibold hover:bg-pulse-accent hover:text-white transition-all duration-200 whitespace-nowrap"
-                            >
-                                Envoyer
-                            </button>
-                        </div>
                     </div>
 
                     {/* Immatriculation */}
